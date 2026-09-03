@@ -14,12 +14,13 @@ const eslintConfig = defineConfig([
       'no-shadow': 'warn',
 
       // Code quality
-      eqeqeq: 'error',
+      'eqeqeq': 'error',
       'no-var': 'error',
       'prefer-const': 'error',
       'no-duplicate-case': 'error',
       'no-empty': 'warn',
-      curly: 'error',
+      'curly': 'error',
+      '@typescript-eslint/consistent-type-imports': 'error',
 
       // Console
       'no-console': 'warn',
